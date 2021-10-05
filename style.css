@@ -6,7 +6,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 body{
@@ -15,17 +16,38 @@ body{
     color: #86898b;  
 }
 
+/*UTILITIES*/
+
 .bt-white{
     color: #fff;
     font-size: 10px;
 }
 
+.word-white{
+    color: #fff;
+    font-weight: 700; 
+}
+
 .pd{
-    padding: 15px;
+    padding: 18px;
 }
 
 h2{
     margin: 20px 0;
+    font-size: 30px;
+}
+
+h3{
+    font-size:16px ;
+}
+
+.logo{
+    width: 80%;
+    height: 80%;
+}
+
+svg{
+    width: 15%;
 }
 
 /*CONTAINER*/
@@ -39,20 +61,29 @@ h2{
 /*SECTION 1*/
 
 .sec-1{
-    width: 20%;
-    background-color: aquamarine;
+    width: 15%;
+    background-color: #000;
     display: inline-block;
+}
+
+.home ul{
+    list-style: none;
+    line-height: 50px;
+}
+
+.home-food{
+    margin-bottom: 0;
 }
 
 /*SECTION 2*/
 
 main{
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .sec-2{
-    width: 80%;
-    background-color: blanchedalmond;
+    width: 85%;
+    background-color:#090f1f ;
     float: right;
 }
 
@@ -91,8 +122,6 @@ main{
 .line{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-   
 }
 
 .cover{
@@ -100,27 +129,27 @@ main{
     width: calc(100%/6);
 }
 
-.line .cover img{
-    object-fit: fill;
-    
+.cover img{
+    width: 90%;
+    object-fit: cover;
 }
 
+.circle{
+    border-radius: 50%;
+}
 
-
-
-
-
-
-
+/*FOOTER*/
 footer{
-    position: relative;
-    margin-bottom: 0;
-    
     height: 100px;
     width: 100vw;
-    
-    background-color: cadetblue;
-   
-
-    
+    background-color: #1b1b1b;
+    display: flex; 
+    justify-content: space-between; 
 }
+
+
+.left ul img{
+    width: 15%;
+    object-fit: cover;
+}
+
