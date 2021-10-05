@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 body{
@@ -21,6 +22,10 @@ body{
 
 .pd{
     padding: 15px;
+}
+
+h2{
+    margin: 20px 0;
 }
 
 /*CONTAINER*/
@@ -41,6 +46,9 @@ body{
 
 /*SECTION 2*/
 
+main{
+    overflow: scroll;
+}
 
 .sec-2{
     width: 80%;
@@ -78,16 +86,27 @@ body{
     padding: 0 15px;
 }
 
+/*PLAYED*/
 
 .line{
     display: flex;
     flex-direction: row;
 }
 
+.cover{
+    text-align: center;
+    margin: auto;
+}
 
 .line .cover img{
-    width:90% ;
+    width: 180px; 
 }
+
+.nono{
+    margin:10px;
+}
+
+
 
 
 
