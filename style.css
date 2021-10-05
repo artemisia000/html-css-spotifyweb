@@ -10,7 +10,8 @@
 
 body{
     width: 100vw;
-    height: 100vh;  
+    height: 100vh;
+    color: #86898b;  
 }
 
 .bt-white{
@@ -19,7 +20,7 @@ body{
 }
 
 .pd{
-    padding: 10px;
+    padding: 15px;
 }
 
 /*CONTAINER*/
@@ -38,9 +39,9 @@ body{
     display: inline-block;
 }
 
-
-
 /*SECTION 2*/
+
+
 .sec-2{
     width: 80%;
     background-color: blanchedalmond;
@@ -63,6 +64,32 @@ body{
     border: 1px solid #fff;
     border-radius: 20px;
 }
+
+/*NAV*/
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.line .cover img{
+    width:90% ;
+}
+
+
 
 
 
