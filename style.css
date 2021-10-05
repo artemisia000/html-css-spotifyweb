@@ -91,19 +91,18 @@ main{
 .line{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+   
 }
 
 .cover{
     text-align: center;
-    margin: auto;
+    width: calc(100%/6);
 }
 
 .line .cover img{
-    width: 180px; 
-}
-
-.nono{
-    margin:10px;
+    object-fit: fill;
+    
 }
 
 
