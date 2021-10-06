@@ -32,6 +32,9 @@ body{
     padding: 18px;
 }
 
+.pd-20{
+    padding: 20px;
+}
 h2{
     margin: 20px 0;
     font-size: 30px;
@@ -61,9 +64,10 @@ svg{
 /*SECTION 1*/
 
 .sec-1{
-    width: 15%;
+    width: 230px;
     background-color: #000;
     display: inline-block;
+
 }
 
 .home ul{
@@ -71,8 +75,11 @@ svg{
     line-height: 50px;
 }
 
+
+
 .home-food{
     margin-bottom: 0;
+    height: 30px;
 }
 
 /*SECTION 2*/
@@ -82,7 +89,7 @@ main{
 }
 
 .sec-2{
-    width: 85%;
+    width: calc(100% - 230px);
     background-color:#090f1f ;
     float: right;
 }
@@ -100,7 +107,7 @@ main{
     height: 40px;
     margin-right: 10px;
     background-color: #000000;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 20px;
 }
 
@@ -144,12 +151,30 @@ footer{
     width: 100vw;
     background-color: #1b1b1b;
     display: flex; 
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 
-.left ul img{
+
+.list-foot{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+.left{
     width: 15%;
+}
+
+.box .center{
+    width: 70%;
+    justify-content: center;
+}
+
+
+#small-img{
+    width: 40%;
     object-fit: cover;
 }
-
